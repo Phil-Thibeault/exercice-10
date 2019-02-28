@@ -29,12 +29,16 @@
 				}
 				  
 				.box {
-					background-color: #444;
-					color: #fff;
+					background-color: #ca43d3;
+					color: #7d68dd;
 					border-radius: 5px;
 					padding: 20px;
 					font-size: 50%;
 					text-align: center;
+
+					a{
+						color: #7d68dd;
+					}
 
 					.entry-title{
 						&::before{
