@@ -38,22 +38,20 @@
   grid-gap: 10px;
   -ms-grid-columns: (minmax(100px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  background-color: #fff;
-  color: #444;
   padding-top: 10px;
 }
 
 .site-content .content-area .site-main .box {
   background-color: #ca43d3;
-  color: #7d68dd;
   border-radius: 5px;
+  border: 5px inset #74b8f0;
   padding: 20px;
   font-size: 50%;
   text-align: center;
 }
 
 .site-content .content-area .site-main .box a {
-  color: #7d68dd;
+  color: #28128a;
 }
 
 .site-content .content-area .site-main .box .entry-title::before {
@@ -67,20 +65,14 @@
     grid-gap: 10px;
     -ms-grid-columns: (minmax(100px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    background-color: #fff;
-    color: #444;
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
     background-color: #ca43d3;
-    color: #7d68dd;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
     text-align: center;
-  }
-  .site-content .content-area .site-main .box a {
-    color: #7d68dd;
   }
   .site-content .content-area .site-main .box .entry-title::before {
     content: none;
@@ -94,20 +86,14 @@
     grid-gap: 10px;
     -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    background-color: #fff;
-    color: #444;
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
     background-color: #ca43d3;
-    color: #7d68dd;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
     text-align: center;
-  }
-  .site-content .content-area .site-main .box a {
-    color: #7d68dd;
   }
   .site-content .content-area .site-main .box .entry-title::before {
     content: none;
@@ -121,20 +107,14 @@
     grid-gap: 10px;
     -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    background-color: #fff;
-    color: #444;
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
     background-color: #ca43d3;
-    color: #7d68dd;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
     text-align: center;
-  }
-  .site-content .content-area .site-main .box a {
-    color: #7d68dd;
   }
   .site-content .content-area .site-main .box .entry-title::before {
     content: none;

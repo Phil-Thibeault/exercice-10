@@ -16,21 +16,19 @@
 				display: grid;
 				grid-gap: 10px;
 				grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) ) ;
-				background-color: #fff;
-				color: #444;
 				padding-top: 10px;
 			}
 			  
 			.box {
 				background-color: #ca43d3;
-				color: #7d68dd;
 				border-radius: 5px;
+				border: 5px inset rgb(116, 184, 240);
 				padding: 20px;
 				font-size: 50%;
 				text-align: center;
 
 				a{
-					color: #7d68dd;
+					color: #28128a;
 				}
 
 				.entry-title{
@@ -44,22 +42,15 @@
 					display: grid;
 					grid-gap: 10px;
 					grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) ) ;
-					background-color: #fff;
-					color: #444;
 					padding-top: 10px;
 				}
 				  
 				.box {
 					background-color: #ca43d3;
-					color: #7d68dd;
 					border-radius: 5px;
 					padding: 20px;
 					font-size: 50%;
 					text-align: center;
-
-					a{
-						color: #7d68dd;
-					}
 
 					.entry-title{
 						&::before{
@@ -73,22 +64,15 @@
 					display: grid;
 					grid-gap: 10px;
 					grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
-					background-color: #fff;
-					color: #444;
 					padding-top: 10px;
 				}
 				  
 				.box {
 					background-color: #ca43d3;
-					color: #7d68dd;
 					border-radius: 5px;
 					padding: 20px;
 					font-size: 50%;
 					text-align: center;
-
-					a{
-						color: #7d68dd;
-					}
 
 					.entry-title{
 						&::before{
@@ -102,22 +86,15 @@
 					display: grid;
 					grid-gap: 10px;
 					grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
-					background-color: #fff;
-					color: #444;
 					padding-top: 10px;
 				}
 				  
 				.box {
 					background-color: #ca43d3;
-					color: #7d68dd;
 					border-radius: 5px;
 					padding: 20px;
 					font-size: 50%;
 					text-align: center;
-
-					a{
-						color: #7d68dd;
-					}
 
 					.entry-title{
 						&::before{
