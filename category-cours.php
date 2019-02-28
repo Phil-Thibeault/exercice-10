@@ -13,14 +13,8 @@ get_header();
 ?>
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+		<div class="wrapper">
 		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-				?>
-			</header><!-- .page-header -->
 
 			<?php
 			// Start the Loop.
@@ -36,7 +30,9 @@ get_header();
 
 				// End the loop.
 			endwhile;
-
+			?>
+			</div>
+			<?php
 			// Previous/next page navigation.
 			twentynineteen_the_posts_navigation();
 

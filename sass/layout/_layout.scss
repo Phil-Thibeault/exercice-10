@@ -1,6 +1,8 @@
 
 /** === Layout === */
 
+@import '../mixins/utilities';
+
 #page {
 	width: 100%;
 }
@@ -10,11 +12,33 @@
 
 	.content-area{
 		.site-main{
-			.cours{
-				.entry-header{
+			@include media(mobile){
+				display: grid;
+			}
+			@include media(tablet){
+
+			}
+			@include media(desktop){
+				.wrapper {
+					display: grid;
+					grid-gap: 10px;
+					grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+					background-color: #fff;
+					color: #444;
+					padding-top: 10px;
+				}
+				  
+				.box {
+					background-color: #444;
+					color: #fff;
+					border-radius: 5px;
+					padding: 20px;
+					font-size: 50%;
+					text-align: center;
+
 					.entry-title{
 						&::before{
-							display: none !important;
+							content: none;
 						}
 					}
 				}

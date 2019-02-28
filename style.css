@@ -32,8 +32,35 @@
   overflow: hidden;
 }
 
-.site-content .content-area .site-main .cours .entry-header .entry-title::before {
-  display: none !important;
+@media only screen and (min-width: 600px) {
+  .site-content .content-area .site-main {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 1168px) {
+  .site-content .content-area .site-main .wrapper {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: #fff;
+    color: #444;
+    padding-top: 10px;
+  }
+  .site-content .content-area .site-main .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 50%;
+    text-align: center;
+  }
+  .site-content .content-area .site-main .box .entry-title::before {
+    content: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {

@@ -10,6 +10,7 @@
  */
 
 ?>
+<div class="box">
 <article id="post-<?php the_ID(); ?>" class="cours" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -30,3 +31,4 @@
 		<?php twentynineteen_entry_footer(); ?>
 	</footer>--><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
+</div>
