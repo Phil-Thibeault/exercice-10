@@ -11,7 +11,7 @@
 
 ?>
 <div class="box">
-<article id="post-<?php the_ID(); ?>" class="cours" <?php post_class(); ?>>
+<article id="post-<?php the_ID();?>" class="cours" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
