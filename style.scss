@@ -14,6 +14,7 @@
 
 @import "./sass/mixins/utilities";
 @import "./sass/variables-site/variables-site";
+@import "./sass/layout/layout";
 
 @include media(mobile) {
     .site-header{
@@ -216,6 +217,7 @@
     
                     &:hover{
                         transform: skew(5deg);
+                    
                         transition: transform 1s;
                     }
                 }

@@ -7,5 +7,19 @@
 
 .site-content {
 	overflow: hidden;
+
+	.content-area{
+		.site-main{
+			.cours{
+				.entry-header{
+					.entry-title{
+						&::before{
+							display: none !important;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 

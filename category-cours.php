@@ -11,7 +11,6 @@
 
 get_header();
 ?>
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ - category-cours.php - ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 

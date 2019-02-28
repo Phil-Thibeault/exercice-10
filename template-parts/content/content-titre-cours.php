@@ -10,8 +10,7 @@
  */
 
 ?>
-xxxxxxxxxxxxxxxxxxxxxxxxxx content-excerpt enfant xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" class="cours" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
@@ -23,11 +22,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx content-excerpt enfant xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 	<?php twentynineteen_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<!--<div class="entry-content">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-content -->
+	</div>--><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<!--<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer>--><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
