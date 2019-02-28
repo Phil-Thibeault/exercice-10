@@ -32,10 +32,85 @@
   overflow: hidden;
 }
 
+.site-content .content-area .site-main .wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  background-color: #fff;
+  color: #444;
+  padding-top: 10px;
+}
+
+.site-content .content-area .site-main .box {
+  background-color: #ca43d3;
+  color: #7d68dd;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 50%;
+  text-align: center;
+}
+
+.site-content .content-area .site-main .box a {
+  color: #7d68dd;
+}
+
+.site-content .content-area .site-main .box .entry-title::before {
+  content: none;
+}
+
 @media only screen and (min-width: 600px) {
-  .site-content .content-area .site-main {
+  .site-content .content-area .site-main .wrapper {
     display: -ms-grid;
     display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: (minmax(100px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    background-color: #fff;
+    color: #444;
+    padding-top: 10px;
+  }
+  .site-content .content-area .site-main .box {
+    background-color: #ca43d3;
+    color: #7d68dd;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 50%;
+    text-align: center;
+  }
+  .site-content .content-area .site-main .box a {
+    color: #7d68dd;
+  }
+  .site-content .content-area .site-main .box .entry-title::before {
+    content: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .site-content .content-area .site-main .wrapper {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background-color: #fff;
+    color: #444;
+    padding-top: 10px;
+  }
+  .site-content .content-area .site-main .box {
+    background-color: #ca43d3;
+    color: #7d68dd;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 50%;
+    text-align: center;
+  }
+  .site-content .content-area .site-main .box a {
+    color: #7d68dd;
+  }
+  .site-content .content-area .site-main .box .entry-title::before {
+    content: none;
   }
 }
 
