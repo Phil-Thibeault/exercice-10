@@ -52,14 +52,15 @@ if ( $query1->have_posts() ) {
 }
 
 /* The 2nd Query (without global var) */
-$args2 = array( 'category_name' => 'cours' );
+$args2 = array( 'category_name' => 'evenements' );
 $query2 = new WP_Query( $args2 );
 
 if ( $query2->have_posts() ) {
 	// The 2nd Loop
 	while ( $query2->have_posts() ) {
 		$query2->the_post();
-		echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
+		//echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
+		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 	}
 
 	// Restore original Post Data
