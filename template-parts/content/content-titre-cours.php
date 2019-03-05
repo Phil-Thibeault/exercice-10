@@ -10,7 +10,12 @@
  */
 
 ?>
-<div class="box">
+<div class="box session<?php 
+	$session = "";
+	$post_slug = get_post_field( 'post_name', get_post () );
+	$session = substr($post_slug, -3,1);
+	echo $session;
+	?>">
 <article id="post-<?php the_ID();?>" class="cours" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php

@@ -42,7 +42,6 @@
 }
 
 .site-content .content-area .site-main .box {
-  background-color: #ca43d3;
   border-radius: 5px;
   border: 5px inset #74b8f0;
   padding: 20px;
@@ -68,7 +67,6 @@
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
-    background-color: #ca43d3;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
@@ -89,7 +87,6 @@
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
-    background-color: #ca43d3;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
@@ -110,7 +107,6 @@
     padding-top: 10px;
   }
   .site-content .content-area .site-main .box {
-    background-color: #ca43d3;
     border-radius: 5px;
     padding: 20px;
     font-size: 50%;
@@ -119,6 +115,30 @@
   .site-content .content-area .site-main .box .entry-title::before {
     content: none;
   }
+}
+
+.session1 {
+  background-color: azure;
+}
+
+.session2 {
+  background-color: aquamarine;
+}
+
+.session3 {
+  background-color: cyan;
+}
+
+.session4 {
+  background-color: darkturquoise;
+}
+
+.session5 {
+  background-color: cadetblue;
+}
+
+.session6 {
+  background-color: darkcyan;
 }
 
 @media only screen and (min-width: 600px) {
