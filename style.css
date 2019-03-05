@@ -117,6 +117,18 @@
   }
 }
 
+.entry-content > p {
+  margin: 0 !important;
+  max-width: 100% !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: chartreuse;
+  line-height: 100px;
+  color: #8C1A6A;
+  border-radius: 20px;
+  border: 8px inset orange;
+}
+
 .session1 {
   background-color: azure;
 }
