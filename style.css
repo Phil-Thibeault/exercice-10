@@ -28,6 +28,15 @@
   width: 100%;
 }
 
+.wrapper2 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(25%, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  padding: 10px;
+}
+
 .site-content {
   overflow: hidden;
 }
